@@ -1,0 +1,29 @@
+create table ymp_detail
+(ymp_no number(2),ymp_name varchar(20), ymp_school varchar(20), ymp_hobby varchar(10),ymp_std number(2),ymp_gender varchar (7));
+insert into ymp_detail value
+(1,'manav','somlalit','reading',12,male);
+insert into ymp_detail value
+(2,'yash','somlalit','reading',12,male);
+insert into ymp_detail value
+(3,'axit','somlalit','reading',12,male);
+insert into ymp_detail value
+(4,'dixit','somlalit','reading',12,male);
+insert into ymp_detail value
+(5,'heer','somlalit','reading',12,male);
+insert into ymp_detail value
+(6,'prem','somlalit','reading',12,male);
+insert into ymp_detail value
+(7,'bhargav','somlalit','reading',12,male);
+insert into ymp_detail value
+(8,'keyur','somlalit','reading',12,male);
+insert into ymp_detail value
+(9,'krisha','somlalit','reading',12,female);
+insert into ymp_detail value
+(10,'krisha',null,'reading',12,female);
+insert into ymp_detail value
+(11,'kamaxi','somlalit','reading',null,female);
+insert into ymp_detail value
+(12,'jeet','somlalit','reading',12,male);
+insert into ymp_detail value
+(13,'avi','somlalit','reading',12,male);
+select* from ymp_detail;
